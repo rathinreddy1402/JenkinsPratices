@@ -7,9 +7,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Parameterization {
-public WebDriver driver;
+
 	public void m1()
 	{
+		WebDriver driver;
 		String BROWSER = System.getProperty("browser");
 		String URL = System.getProperty("url");
 	//String USERNAME = System.getProperty("username");
